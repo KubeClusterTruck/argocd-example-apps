@@ -34,7 +34,7 @@ spec:
               - SETGID
               - SETUID
               - DAC_OVERRIDE
-          readOnlyRootFilesystem: true
+          readOnlyRootFilesystem: false
       - name: rabbitmq-exporter
         image: kbudde/rabbitmq-exporter
         ports:
