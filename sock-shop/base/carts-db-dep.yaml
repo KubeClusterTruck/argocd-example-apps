@@ -29,7 +29,7 @@ spec:
               - CHOWN
               - SETGID
               - SETUID
-          readOnlyRootFilesystem: true
+          readOnlyRootFilesystem: false
         volumeMounts:
         - mountPath: /tmp
           name: tmp-volume
